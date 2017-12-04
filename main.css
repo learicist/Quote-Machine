@@ -1,0 +1,74 @@
+ * {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width:600px) {
+	#mainBox {
+		width:100%;
+		margin:12% 0 30% 0;
+	}
+}
+
+body {
+	background-color:#ff4d00;
+}
+
+.main {
+	background-color:#9900ff;
+	height:100%;
+	width:50%;
+	margin:12% 25% 30% 25%;
+	border-radius:7px;
+	box-shadow: 0px 0px 20px;
+}
+
+#generate {
+	font-size:135%;
+	border-radius:20%;
+	border:1px solid white;
+	width:7em;
+	display:inline-block;
+	background-color:#00ccff;
+	color:white;
+	font-family: 'Josefin Sans', sans-serif;
+	margin:2% 5%;
+	float: right;
+}
+
+#tweet {
+	border-radius:25%;
+	background-color:#00ccff;
+	width:4em;
+	color:white;
+	margin:2% 5%;
+	display:inline-block;
+	border:1px solid white;
+	padding:10px 10px;	
+}
+
+#tweet:focus {
+	outline:none;
+}
+
+#generate:focus {
+	outline:none;
+}
+
+#icon {
+	font-size:160%;
+	
+}
+
+.textbox {
+	text-align:center;
+	margin:5% auto;
+	color:#ffcc00;
+	font-family:'Signika', sans-serif;
+}
+
+#author {
+	float:right;
+	margin-right:5%;
+}
+
