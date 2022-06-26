@@ -9,29 +9,19 @@ $(document).ready(function() {
 	function colorChange() {
 		var colors = [
 			{
-				text: "#65abd1",
-				main: "#d1a465",
-				body: "#d16e65"
-			},
-			/*{
-				text: "#8730ba",
-				main: "#a8ba30",
-				body: "#ba7e30",
+				text: "#55c9a4",
+				main: "#557ac9",
+				body: "#68c955"
 			},
 			{
-				text: "#d41b9f",
-				main: "#43d41b",
-				body: "#d4361b",
+				text: "#fab187",
+				main: "#a287fa",
+				body: "#87fabd"
 			},
-			{
-				text: "#23d63e",
-				main: "#d68323",
-				body: "#d623ca",
-			},*/
 			{
 				text: "#d2db4e",
-				main: "#db534e",
-				body: "#584edb",
+				main: "#db4e8b",
+				body: "#9e4edb",
 			},
 		];
 
